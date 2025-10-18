@@ -115,10 +115,6 @@ function showFallacy(fallacy) {
     document.getElementById('detail-description').textContent = fallacy.description;
     document.getElementById('detail-example').textContent = fallacy.example;
     
-    const sourceLink = document.getElementById('detail-source-link');
-    sourceLink.textContent = fallacy.source;
-    sourceLink.href = fallacy.sourceUrl;
-    
     // Show detail view, hide home view
     homeView.style.display = 'none';
     detailView.style.display = 'block';
@@ -150,16 +146,6 @@ function setupEventListeners() {
     // Back button
     backButton.addEventListener('click', () => {
         showHome();
-    });
-    
-    // Share on Twitter
-    document.getElementById('share-twitter').addEventListener('click', () => {
-        if (currentFallacy) {
-            const text = `Your Woke Fallacy Is: ${currentFallacy.title}`;
-            const url = window.location.href;
-            const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
-            window.open(twitterUrl, '_blank', 'width=550,height=420');
-        }
     });
     
     // Copy link
