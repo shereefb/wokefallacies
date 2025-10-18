@@ -371,6 +371,18 @@
       "icon": "⚔️",
       "source": "Ethics",
       "sourceUrl": "https://plato.stanford.edu"
+    },
+    {
+      "id": 32,
+      "slug": "pendulum-fallacy",
+      "title": "Pendulum Fallacy",
+      "subtitle": "Natural Correction Myth",
+      "tagline": "What goes around comes around",
+      "description": "Framing present injustices against a formerly advantaged group as a natural, inevitable, or even desirable 'pendulum swing' or 'course correction' after historical injustices. This naturalizes revenge and overcorrection by treating them as automatic forces of nature or history rather than human choices that can and should be evaluated morally. It suggests that injustice is cyclical and self-correcting, so we should passively accept current wrongs as part of an organic balancing process. By invoking metaphors of nature or cosmic justice, it removes human agency and moral responsibility.",
+      "example": "\"Men dominated for centuries, so now it's women's turn—the pendulum is just swinging back.\" \"White people had their time in power, now it's natural that they'll experience what minorities experienced.\" \"This is just the pendulum swinging—it'll eventually find balance in the middle.\" \"You can't stop the pendulum; history always overcorrects before finding equilibrium.\"",
+      "icon": "⏰",
+      "source": "Philosophy of History",
+      "sourceUrl": "https://plato.stanford.edu"
     }
   ]
 }
