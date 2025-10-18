@@ -143,6 +143,18 @@
       "icon": "📉",
       "source": "Penguin Books",
       "sourceUrl": "https://www.penguin.com"
+    },
+    {
+      "id": 13,
+      "slug": "feeling-as-accusation",
+      "title": "Feeling as Accusation",
+      "subtitle": "Emotional Reframing of Claims",
+      "tagline": "Disguising accusations as unchallengeable feelings",
+      "description": "Using past-tense verbs as feelings (e.g., 'I feel violated,' 'I feel attacked,' 'I feel erased') transforms factual claims or accusations into subjective emotional states. This linguistic move makes the statement unfalsifiable—since feelings are personal and subjective, they cannot be questioned or disputed. What is actually an accusation that someone did something wrong becomes reframed as merely reporting an internal emotional state.",
+      "example": "\"I feel violated by your comment\" instead of \"Your comment violated my boundaries.\" The first formulation presents an accusation as an unchallengeable feeling, while the second makes a disputable claim about what actually happened. Similarly, \"I feel attacked\" avoids having to prove that an attack occurred.",
+      "icon": "💭",
+      "source": "Linguistic Analysis",
+      "sourceUrl": "https://en.wikipedia.org"
     }
   ]
 }
