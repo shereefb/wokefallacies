@@ -155,6 +155,18 @@
       "icon": "💭",
       "source": "Linguistic Analysis",
       "sourceUrl": "https://en.wikipedia.org"
+    },
+    {
+      "id": 14,
+      "slug": "suicidal-empathy",
+      "title": "Suicidal Empathy",
+      "subtitle": "Misallocated Compassion",
+      "tagline": "Hyperactive empathy deployed on the wrong targets",
+      "description": "A term coined by evolutionary psychologist Gad Saad describing when our emotional system is hijacked into an excessive, indiscriminate form of empathy that undermines rational cost-benefit analysis and self-preservation. Evolution designed empathy to be strategic and calibrated—we naturally prioritize those closest to us. Suicidal empathy occurs when this system malfunctions, leading to policies that harm the in-group while benefiting out-groups or bad actors, all in the name of compassion.",
+      "example": "Providing illegal immigrants with more resources and benefits than homeless veterans or disaster victims. Allowing biological males to compete in women's sports because of empathy for trans individuals, while ignoring the rights and safety of biological women. Refusing to enforce immigration laws or criminal penalties out of empathy for offenders, while disregarding victims and law-abiding citizens.",
+      "icon": "💔",
+      "source": "Gad Saad",
+      "sourceUrl": "https://www.northwood.edu/news/parasitic-ideas-and-suicidal-empathy-are-killing-the-west/"
     }
   ]
 }
