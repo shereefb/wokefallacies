@@ -347,6 +347,18 @@
       "icon": "🎪",
       "source": "Activism Studies",
       "sourceUrl": "https://en.wikipedia.org"
+    },
+    {
+      "id": 30,
+      "slug": "selective-infantilization",
+      "title": "Selective Infantilization",
+      "subtitle": "Conditional Agency Paradox",
+      "tagline": "Empowered until it's inconvenient",
+      "description": "The simultaneous assertion that certain groups (particularly women) are fully autonomous agents whose choices must be respected, except when those choices involve relationships with people in positions of power or authority—at which point their agency is retroactively denied and they're treated as incapable of genuine consent. This creates a paradox where the same person is both empowered and powerless depending on which narrative is more politically convenient. Power differentials become an automatic nullification of consent, regardless of actual circumstances.",
+      "example": "\"We must believe women and respect their choices—except when a woman chooses to date her professor/boss/mentor, in which case she was obviously manipulated and groomed.\" An adult woman in her 30s dating a CEO is treated as a victim incapable of consent, while simultaneously being celebrated as an empowered professional. Claiming any relationship with a power differential is inherently exploitative, which would invalidate most relationships.",
+      "icon": "🪆",
+      "source": "Feminist Philosophy",
+      "sourceUrl": "https://plato.stanford.edu"
     }
   ]
 }
