@@ -94,9 +94,11 @@ function showHome() {
 function createFallacyCard(fallacy) {
     const card = cardTemplate.content.cloneNode(true);
     const article = card.querySelector('.fallacy-card');
+    const iconElement = card.querySelector('.card-icon');
     
     // Set card content
-    card.querySelector('.card-icon').textContent = fallacy.icon;
+    iconElement.textContent = fallacy.icon;
+    iconElement.classList.add(`color-${fallacy.id}`);
     card.querySelector('.card-title').textContent = fallacy.title;
     card.querySelector('.card-subtitle').textContent = fallacy.subtitle;
     card.querySelector('.card-tagline').textContent = fallacy.tagline;
@@ -114,7 +116,11 @@ function showFallacy(fallacy) {
     currentFallacy = fallacy;
     
     // Update detail view content
-    document.getElementById('detail-icon').textContent = fallacy.icon;
+    const detailIcon = document.getElementById('detail-icon');
+    detailIcon.textContent = fallacy.icon;
+    detailIcon.className = 'detail-icon';
+    detailIcon.classList.add(`color-${fallacy.id}`);
+    
     document.getElementById('detail-title').textContent = fallacy.title;
     document.getElementById('detail-subtitle').textContent = fallacy.subtitle;
     document.getElementById('detail-tagline').textContent = fallacy.tagline;
