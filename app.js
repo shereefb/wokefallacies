@@ -39,18 +39,25 @@ function setupRouting() {
 // Handle route changes
 function handleRoute() {
     const path = window.location.pathname;
-    const hash = window.location.hash;
+    const search = window.location.search;
     
-    // Check if we have a slug in the URL
+    // Check for query parameter (from 404 redirect)
+    if (search && search.startsWith('?')) {
+        const slug = search.substring(1);
+        if (slug) {
+            showFallacyBySlug(slug);
+            return;
+        }
+    }
+    
+    // Check if we have a slug in the URL path
     const pathParts = path.split('/').filter(part => part);
     const lastPart = pathParts[pathParts.length - 1];
     
-    // Check both path and hash for slug
+    // Extract slug from path
     let slug = null;
     if (lastPart && lastPart !== 'index.html' && !lastPart.includes('.')) {
         slug = lastPart;
-    } else if (hash && hash.startsWith('#/')) {
-        slug = hash.substring(2);
     }
     
     if (slug) {
@@ -78,10 +85,9 @@ function showHome() {
     // Update page title
     document.title = 'Your Woke Fallacy Is';
     
-    // Update URL without page reload
-    if (window.location.hash) {
-        history.pushState(null, '', window.location.pathname);
-    }
+    // Update URL to root
+    const baseUrl = window.location.origin + window.location.pathname.replace(/\/[^/]*$/, '/');
+    history.pushState(null, '', baseUrl);
 }
 
 // Create a fallacy card element
@@ -122,8 +128,9 @@ function showFallacy(fallacy) {
     // Update page title
     document.title = `${fallacy.title} - Your Woke Fallacy Is`;
     
-    // Update URL
-    history.pushState({ slug: fallacy.slug }, '', `#/${fallacy.slug}`);
+    // Update URL with clean path (no hash)
+    const baseUrl = window.location.origin + window.location.pathname.replace(/\/[^/]*$/, '/');
+    history.pushState({ slug: fallacy.slug }, '', `${baseUrl}${fallacy.slug}`);
     
     // Scroll to top
     window.scrollTo({ top: 0, behavior: 'smooth' });

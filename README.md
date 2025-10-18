@@ -15,9 +15,9 @@ This website presents 12 common reasoning patterns and logical fallacies that ap
 ## Features
 
 - 📱 **Responsive Design**: Works beautifully on desktop, tablet, and mobile
-- 🔗 **Direct Links**: Each fallacy has its own URL (e.g., `#/disparity-discrimination`)
+- 🔗 **Clean URLs**: Each fallacy has its own URL (e.g., `domain.com/disparity-discrimination`)
 - 🎨 **Modern UI**: Clean, card-based interface inspired by yourlogicalfallacyis.com
-- 📤 **Social Sharing**: Share fallacies on Twitter or copy direct links
+- 📤 **Social Sharing**: Copy direct links to share fallacies
 - ⚡ **Fast & Lightweight**: Pure HTML, CSS, and JavaScript - no frameworks needed
 - 🎯 **SEO Friendly**: Proper meta tags and semantic HTML
 
@@ -26,12 +26,21 @@ This website presents 12 common reasoning patterns and logical fallacies that ap
 ```
 wokefallacies/
 ├── index.html          # Main HTML file
+├── 404.html            # GitHub Pages redirect for clean URLs
 ├── styles.css          # All styling
 ├── app.js              # JavaScript for templating and routing
 ├── fallacies.json      # Data file containing all fallacies
 ├── fallacies.md        # Original markdown source
 └── README.md           # This file
 ```
+
+## Clean URLs
+
+The site uses clean URLs without hash fragments (e.g., `domain.com/disparity-discrimination` instead of `domain.com/#/disparity-discrimination`). This is achieved through:
+
+1. **Client-side routing** in `app.js` using the History API
+2. **404.html redirect** for GitHub Pages to handle direct URL access
+3. **Important**: Update the `base` variable in `404.html` to match your repository name or remove it for custom domains
 
 ## Hosting on GitHub Pages
 

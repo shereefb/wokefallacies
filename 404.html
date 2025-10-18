@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        // GitHub Pages 404 redirect for client-side routing
+        // This script captures the current path and redirects to index.html
+        // with the path preserved so the app can handle routing
+        (function() {
+            var path = window.location.pathname;
+            var base = '/wokefallacies/'; // Update this to match your repo name
+            
+            // If we're in a subdirectory (GitHub Pages project site)
+            if (path.startsWith(base)) {
+                var slug = path.substring(base.length);
+                if (slug && slug !== 'index.html') {
+                    window.location.replace(base + '?' + slug);
+                } else {
+                    window.location.replace(base);
+                }
+            } else {
+                // For custom domain (no subdirectory)
+                var slug = path.substring(1); // Remove leading slash
+                if (slug && slug !== 'index.html') {
+                    window.location.replace('/?' + slug);
+                } else {
+                    window.location.replace('/');
+                }
+            }
+        })();
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>
