@@ -359,6 +359,18 @@
       "icon": "🪆",
       "source": "Feminist Philosophy",
       "sourceUrl": "https://plato.stanford.edu"
+    },
+    {
+      "id": 31,
+      "slug": "collective-retribution",
+      "title": "Collective Retribution",
+      "subtitle": "Historical Debt Justifies Present Injustice",
+      "tagline": "Past wrongs justify present wrongs",
+      "description": "Using past group-level injustices to justify present individual-level injustices against members of the formerly advantaged group. This treats justice as a zero-sum game where historical wrongs create a moral license for contemporary wrongs in the opposite direction. It abandons individual justice in favor of collective score-settling, where innocent individuals can be sacrificed as 'acceptable losses' in service of a larger social cause. Each person's right to fair treatment is subordinated to group-level historical accounting.",
+      "example": "\"Yes, some innocent men will be falsely accused by #MeToo, but that's acceptable given how many women were silenced for decades.\" \"If some qualified white applicants are rejected due to diversity quotas, that's just balancing the scales for centuries of discrimination.\" \"A few false accusations are a small price to pay for believing all women.\" \"It's okay if some men feel uncomfortable or excluded now—women have felt that way forever.\"",
+      "icon": "⚔️",
+      "source": "Ethics",
+      "sourceUrl": "https://plato.stanford.edu"
     }
   ]
 }
