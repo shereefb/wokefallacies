@@ -1,0 +1,148 @@
+{
+  "fallacies": [
+    {
+      "id": 1,
+      "slug": "disparity-discrimination",
+      "title": "Disparity ⇒ Discrimination",
+      "subtitle": "Single-Cause Fallacy",
+      "tagline": "Assuming unequal outcomes prove bias",
+      "description": "Treating unequal group outcomes as proof of bias, rather than a possible hypothesis among many. This fallacy assumes that any statistical disparity between groups must be caused by discrimination, ignoring the multitude of other factors that can generate gaps.",
+      "example": "\"Women earn 77 cents on the dollar compared to men, therefore employers are discriminating.\" This ignores factors like hours worked, career choices, experience levels, and personal preferences that contribute to wage differences.",
+      "icon": "📊",
+      "source": "Hoover Institution",
+      "sourceUrl": "https://www.hoover.org"
+    },
+    {
+      "id": 2,
+      "slug": "lived-experience",
+      "title": "Lived Experience as Epistemic Trump Card",
+      "subtitle": "Standpoint Theory Overreach",
+      "tagline": "Elevating personal testimony to infallibility",
+      "description": "Standpoint theory rightly says knowledge is socially situated and marginalized voices can have insight—but elevating testimony to infallibility collapses evidence standards and blocks adjudication of disagreements. Personal experience should be used as data, not as the final decider.",
+      "example": "\"As a member of this group, my lived experience tells me this is harmful, and you cannot question that because you don't share my identity.\" This prevents any critical examination or consideration of conflicting experiences.",
+      "icon": "👁️",
+      "source": "Stanford Encyclopedia of Philosophy",
+      "sourceUrl": "https://plato.stanford.edu"
+    },
+    {
+      "id": 3,
+      "slug": "motte-and-bailey",
+      "title": "Motte-and-Bailey Shift",
+      "subtitle": "Rhetorical Retreat",
+      "tagline": "Defending weak claims while asserting strong ones",
+      "description": "Advance a strong claim (\"X is violence\" or \"all disparities are racist\"), then retreat to a trivial claim when challenged (\"words can feel harmful\" or \"some disparities involve racism\"), only to re-assert the strong claim later. This rhetorical maneuver was named by philosopher Nicholas Shackel.",
+      "example": "Activist: \"Speech is violence!\" Critic: \"That's absurd.\" Activist: \"I just mean words can hurt people's feelings.\" Later: \"We need to ban this violent speech.\"",
+      "icon": "🏰",
+      "source": "PhilPapers",
+      "sourceUrl": "https://philpapers.org"
+    },
+    {
+      "id": 4,
+      "slug": "concept-creep",
+      "title": "Concept Creep & Safetyism",
+      "subtitle": "Expanding Definitions of Harm",
+      "tagline": "When everything becomes harmful",
+      "description": "Definitions of harm expand over time (bullying → microaggression → \"unsafe speech\"), so more things count as injury, justifying stronger controls. Haidt and Lukianoff warn that \"safetyism\" can undermine resilience, while Haslam has mapped this conceptual drift empirically.",
+      "example": "A university declares that \"exposure to challenging ideas\" creates an \"unsafe environment,\" equating intellectual discomfort with physical danger and requiring trigger warnings for classic literature.",
+      "icon": "🛡️",
+      "source": "Heterodox Academy",
+      "sourceUrl": "https://heterodoxacademy.org"
+    },
+    {
+      "id": 5,
+      "slug": "speech-violence",
+      "title": "Speech = Violence Conflation",
+      "subtitle": "Category Error",
+      "tagline": "Treating words as physical force",
+      "description": "A moral intuition that harmful words are like violence becomes a policy claim that they are violence, inviting coercive remedies normally reserved for force. Even campus ethicists who sympathize with the intuition caution against this equivalence.",
+      "example": "\"Misgendering someone is literal violence and should be treated the same as physical assault.\" This conflation justifies punishments designed for actual violence for speech acts.",
+      "icon": "💬",
+      "source": "Harvard Gazette",
+      "sourceUrl": "https://news.harvard.edu"
+    },
+    {
+      "id": 6,
+      "slug": "equity-equality-swap",
+      "title": "Equity–Equality Swap",
+      "subtitle": "Definitional Confusion",
+      "tagline": "Conflating equal opportunity with equal outcomes",
+      "description": "Using \"equity\" (outcome-focused) and \"equality\" (process/access-focused) interchangeably. This muddies goals and metrics; even pro-equity organizations stress keeping the terms distinct to avoid bad policy design.",
+      "example": "A policy claims to promote \"equality\" but actually enforces proportional representation quotas—an equity measure. Critics who support equal opportunity are then accused of opposing \"equality.\"",
+      "icon": "⚖️",
+      "source": "Inside Higher Ed",
+      "sourceUrl": "https://www.insidehighered.com"
+    },
+    {
+      "id": 7,
+      "slug": "tolerance-paradox",
+      "title": "Paradox of Tolerance Overreach",
+      "subtitle": "Popper Misapplied",
+      "tagline": "Stretching tolerance theory to justify intolerance",
+      "description": "Popper's caution about protecting liberal orders from violent intolerance gets stretched into a warrant for broad speech suppression. The original argument is narrower: deny tolerance when intolerance threatens the system itself through force or violence.",
+      "example": "\"Popper said we shouldn't tolerate intolerance, therefore we must ban conservative speakers from campus.\" This extends Popper's narrow exception for violent threats into a justification for silencing any disagreeable viewpoint.",
+      "icon": "🔄",
+      "source": "Wikipedia",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Paradox_of_tolerance"
+    },
+    {
+      "id": 8,
+      "slug": "kafka-trap",
+      "title": "Unfalsifiable Guilt",
+      "subtitle": "Kafka-Trap Structure",
+      "tagline": "Denial proves the accusation",
+      "description": "Frames where denial confirms the charge (e.g., \"your pushback proves fragility/complicity\"). Critics, including left-leaning ones, argue this violates standards of falsifiability and fair discourse. Any response becomes evidence of guilt.",
+      "example": "\"You're exhibiting white fragility.\" \"No, I'm not.\" \"See? Your defensiveness proves you have white fragility.\" There is no possible response that doesn't confirm the accusation.",
+      "icon": "🔒",
+      "source": "Mirjam Glessmer",
+      "sourceUrl": "https://mirjamglessmer.com"
+    },
+    {
+      "id": 9,
+      "slug": "intent-impact",
+      "title": "Intent-versus-Impact Absolutism",
+      "subtitle": "Impact-Only Framework",
+      "tagline": "Intent doesn't matter, only impact",
+      "description": "Prioritizing impact can be morally useful, but making it the only lens invites mind-reading and strict liability for offense. The microaggression literature highlights impact; critics urge considering both intent and impact to guide appropriate remedies.",
+      "example": "\"It doesn't matter that you didn't mean to offend anyone. Someone was hurt, so you're guilty and must be punished.\" This creates a system where accidents and malice receive identical treatment.",
+      "icon": "🎯",
+      "source": "Life Lessons",
+      "sourceUrl": "https://lifelessons.co"
+    },
+    {
+      "id": 10,
+      "slug": "shallow-empathy",
+      "title": "Empathy Over Judgment",
+      "subtitle": "Shallow Empathy",
+      "tagline": "Letting feelings override principles",
+      "description": "As Paul Bloom argues, empathy is narrow and biased; it can misdirect justice toward salient offenders and victims and away from impartial rules and consequences. Favor steady compassion combined with principled rules over emotional empathy.",
+      "example": "A viral video of one sympathetic victim leads to policy changes that ignore broader data and harm many others. The emotional response to one case overrides systematic analysis of what actually works.",
+      "icon": "💔",
+      "source": "Vox",
+      "sourceUrl": "https://www.vox.com"
+    },
+    {
+      "id": 11,
+      "slug": "racism-redefined",
+      "title": "Redefining Racism as Prejudice + Power",
+      "subtitle": "R = P + P",
+      "tagline": "Changing definitions to exclude certain groups",
+      "description": "A valid institutional lens—but when treated as the definition, it erases interpersonal racism by minorities and fuels talking-past-each-other debates. Know which definition you're using and why, rather than claiming only one definition is valid.",
+      "example": "\"Black people can't be racist because racism requires institutional power.\" This redefines racism in a way that makes certain forms of prejudice and discrimination invisible or acceptable.",
+      "icon": "📖",
+      "source": "Wikipedia",
+      "sourceUrl": "https://en.wikipedia.org"
+    },
+    {
+      "id": 12,
+      "slug": "outcome-gap-racism",
+      "title": "Outcome Gap Proves Racism",
+      "subtitle": "Policy Corollary",
+      "tagline": "Disparities are racist until proven otherwise",
+      "description": "Some anti-racist frameworks treat disparities as inherently racist unless proved otherwise (e.g., Kendi's equity-first definitions), which critics say flips the burden of proof and risks endorsing present discrimination to cure past discrimination.",
+      "example": "\"Any test that shows racial disparities in results is a racist test and must be eliminated.\" This assumes the test is at fault rather than considering whether it measures real differences in preparation or other factors.",
+      "icon": "📉",
+      "source": "Penguin Books",
+      "sourceUrl": "https://www.penguin.com"
+    }
+  ]
+}
