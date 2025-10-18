@@ -146,24 +146,41 @@ body {
     max-width: 900px;
     margin: 0 auto;
     padding: 60px 20px;
+    position: relative;
 }
 
-.back-button {
+/* Navigation Arrows */
+.nav-arrow {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
     background: transparent;
     color: var(--text-gray);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    padding: 10px 20px;
-    border-radius: 3px;
-    font-size: 0.9rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 1.5rem;
     cursor: pointer;
-    margin-bottom: 40px;
     transition: all 0.2s ease;
-    font-weight: 400;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.back-button:hover {
+.nav-arrow:hover {
     background: rgba(255, 255, 255, 0.05);
     color: var(--text-white);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.nav-arrow-left {
+    left: 20px;
+}
+
+.nav-arrow-right {
+    right: 20px;
 }
 
 .detail-content {
@@ -324,6 +341,20 @@ body {
 
     .detail-section p {
         font-size: 1rem;
+    }
+
+    .nav-arrow {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+
+    .nav-arrow-left {
+        left: 10px;
+    }
+
+    .nav-arrow-right {
+        right: 10px;
     }
 }
 

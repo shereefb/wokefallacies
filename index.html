@@ -26,7 +26,9 @@
 
             <!-- Detail View: Single Fallacy -->
             <div id="detail-view" class="fallacy-detail" style="display: none;">
-                <button id="back-button" class="back-button">← Back to all fallacies</button>
+                <!-- Navigation Arrows -->
+                <button id="prev-fallacy" class="nav-arrow nav-arrow-left" title="Previous fallacy">←</button>
+                <button id="next-fallacy" class="nav-arrow nav-arrow-right" title="Next fallacy">→</button>
                 
                 <div class="detail-content">
                     <div class="detail-icon" id="detail-icon"></div>
@@ -46,6 +48,7 @@
                     
                     <div class="detail-footer">
                         <div class="share-buttons">
+                            <button class="share-button" id="back-button">← Back to all fallacies</button>
                             <button class="share-button" id="copy-link">Copy Link</button>
                         </div>
                     </div>

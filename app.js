@@ -154,11 +154,51 @@ function showFallacyBySlug(slug) {
     }
 }
 
+// Navigate to previous fallacy
+function showPreviousFallacy() {
+    if (!currentFallacy) return;
+    
+    const currentIndex = fallaciesData.findIndex(f => f.id === currentFallacy.id);
+    const prevIndex = currentIndex > 0 ? currentIndex - 1 : fallaciesData.length - 1;
+    showFallacy(fallaciesData[prevIndex]);
+}
+
+// Navigate to next fallacy
+function showNextFallacy() {
+    if (!currentFallacy) return;
+    
+    const currentIndex = fallaciesData.findIndex(f => f.id === currentFallacy.id);
+    const nextIndex = currentIndex < fallaciesData.length - 1 ? currentIndex + 1 : 0;
+    showFallacy(fallaciesData[nextIndex]);
+}
+
 // Set up event listeners
 function setupEventListeners() {
     // Back button
     backButton.addEventListener('click', () => {
         showHome();
+    });
+    
+    // Navigation arrows
+    document.getElementById('prev-fallacy').addEventListener('click', () => {
+        showPreviousFallacy();
+    });
+    
+    document.getElementById('next-fallacy').addEventListener('click', () => {
+        showNextFallacy();
+    });
+    
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+        if (currentFallacy) {
+            if (e.key === 'ArrowLeft') {
+                showPreviousFallacy();
+            } else if (e.key === 'ArrowRight') {
+                showNextFallacy();
+            } else if (e.key === 'Escape') {
+                showHome();
+            }
+        }
     });
     
     // Copy link
