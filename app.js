@@ -125,7 +125,7 @@ function showFallacy(fallacy) {
     document.getElementById('detail-subtitle').textContent = fallacy.subtitle;
     document.getElementById('detail-tagline').textContent = fallacy.tagline;
     document.getElementById('detail-description').textContent = fallacy.description;
-    document.getElementById('detail-example').textContent = fallacy.example;
+    document.getElementById('detail-example').textContent = 'Example: ' + fallacy.example;
     
     // Show detail view, hide home view
     homeView.style.display = 'none';
