@@ -50,24 +50,15 @@ body {
 .header {
     background: var(--background-dark);
     color: var(--text-white);
-    padding: 80px 20px 60px;
+    padding: 40px 20px 30px;
     text-align: center;
 }
 
 .site-title {
     font-size: 2.5rem;
     font-weight: 300;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     letter-spacing: 0;
-}
-
-.site-subtitle {
-    font-size: 1.1rem;
-    color: var(--text-gray);
-    max-width: 700px;
-    margin: 0 auto;
-    line-height: 1.8;
-    font-weight: 300;
 }
 
 /* Main Content */
@@ -145,7 +136,7 @@ body {
 .fallacy-detail {
     max-width: 900px;
     margin: 0 auto;
-    padding: 60px 20px;
+    padding: 20px 20px 60px;
     position: relative;
 }
 
@@ -196,7 +187,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 4rem;
-    margin: 0 auto 30px;
+    margin: 20px auto 30px;
     color: white;
 }
 
