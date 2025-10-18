@@ -10,24 +10,13 @@
         // with the path preserved so the app can handle routing
         (function() {
             var path = window.location.pathname;
-            var base = '/wokefallacies/'; // Update this to match your repo name
             
-            // If we're in a subdirectory (GitHub Pages project site)
-            if (path.startsWith(base)) {
-                var slug = path.substring(base.length);
-                if (slug && slug !== 'index.html') {
-                    window.location.replace(base + '?' + slug);
-                } else {
-                    window.location.replace(base);
-                }
+            // For custom domain (wokefallacies.org)
+            var slug = path.substring(1); // Remove leading slash
+            if (slug && slug !== 'index.html') {
+                window.location.replace('/?' + slug);
             } else {
-                // For custom domain (no subdirectory)
-                var slug = path.substring(1); // Remove leading slash
-                if (slug && slug !== 'index.html') {
-                    window.location.replace('/?' + slug);
-                } else {
-                    window.location.replace('/');
-                }
+                window.location.replace('/');
             }
         })();
     </script>
