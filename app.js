@@ -38,10 +38,16 @@ function setupRouting() {
 
 // Handle route changes
 function handleRoute() {
+    // Check if there's an initial fallacy slug set by the static page
+    if (window.INITIAL_FALLACY_SLUG) {
+        showFallacyBySlug(window.INITIAL_FALLACY_SLUG);
+        return;
+    }
+    
     const path = window.location.pathname;
     const search = window.location.search;
     
-    // Check for query parameter (from 404 redirect)
+    // Check for query parameter (from 404 redirect - fallback)
     if (search && search.startsWith('?')) {
         const slug = search.substring(1);
         if (slug) {

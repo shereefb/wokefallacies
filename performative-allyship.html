@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performative Allyship - Your Woke Fallacy Is</title>
+    <meta name="description" content="Gestures without substance or risk - Making superficial, visible gestures of support for marginalized groups without taking any substantive action or accepting any real cost or risk. This...">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+
+    <meta property="og:title" content="Performative Allyship">
+    <meta property="og:description" content="Gestures without substance or risk">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://wokefallacies.org/performative-allyship">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Performative Allyship">
+    <meta name="twitter:description" content="Gestures without substance or risk">
+
+    <script>
+        // Automatically show this fallacy when the page loads
+        window.INITIAL_FALLACY_SLUG = 'performative-allyship';
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="site-title">Your Woke Fallacy Is</h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Home View: Grid of Cards -->
+            <div id="home-view" class="fallacy-grid">
+                <!-- Cards will be dynamically inserted here -->
+            </div>
+
+            <!-- Detail View: Single Fallacy -->
+            <div id="detail-view" class="fallacy-detail" style="display: none;">
+                <!-- Navigation Arrows -->
+                <button id="prev-fallacy" class="nav-arrow nav-arrow-left" title="Previous fallacy">←</button>
+                <button id="next-fallacy" class="nav-arrow nav-arrow-right" title="Next fallacy">→</button>
+                
+                <div class="detail-content">
+                    <div class="detail-icon" id="detail-icon"></div>
+                    <h2 class="detail-title" id="detail-title"></h2>
+                    <p class="detail-subtitle" id="detail-subtitle"></p>
+                    <p class="detail-tagline" id="detail-tagline"></p>
+                    
+                    <div class="detail-section">
+                        <h3>Description</h3>
+                        <p id="detail-description"></p>
+                    </div>
+                    
+                    <div class="detail-section">
+                        <h3>Example</h3>
+                        <p id="detail-example"></p>
+                    </div>
+                    
+                    <div class="detail-footer">
+                        <div class="share-buttons">
+                            <button class="share-button" id="back-button">← Back to all fallacies</button>
+                            <button class="share-button" id="copy-link">Copy Link</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>A project examining common reasoning flaws in contemporary discourse</p>
+        </div>
+    </footer>
+
+    <!-- Card Template -->
+    <template id="card-template">
+        <article class="fallacy-card">
+            <div class="card-icon"></div>
+            <h3 class="card-title"></h3>
+            <p class="card-subtitle"></p>
+            <p class="card-tagline"></p>
+        </article>
+    </template>
+
+    <script src="app.js"></script>
+</body>
+</html>
