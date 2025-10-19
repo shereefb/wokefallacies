@@ -383,6 +383,66 @@
       "icon": "⏰",
       "source": "Philosophy of History",
       "sourceUrl": "https://plato.stanford.edu"
+    },
+    {
+      "id": 33,
+      "slug": "safetyism-over-truth",
+      "title": "Safetyism Over Truth",
+      "subtitle": "Comfort Trumps Knowledge",
+      "tagline": "Prioritizing emotional safety over truth-seeking",
+      "description": "Elevating emotional comfort and psychological safety above the pursuit of truth, open debate, and intellectual inquiry. This treats discomfort as harm and disagreement as danger, leading to the suppression of ideas not because they're false but because they make people uncomfortable. It assumes that protecting feelings is more important than discovering truth, and that exposure to challenging ideas is a form of violence rather than an essential part of learning and growth.",
+      "example": "Requiring trigger warnings on classic literature because it might cause discomfort. Canceling speakers or disinviting them from campus because their ideas might make students feel unsafe. Treating the expression of controversial scientific findings as harmful rather than as contributions to knowledge. Equating intellectual challenge with emotional harm.",
+      "icon": "🛡️",
+      "source": "The Coddling of the American Mind",
+      "sourceUrl": "https://en.wikipedia.org"
+    },
+    {
+      "id": 34,
+      "slug": "feelings-as-evidence",
+      "title": "Feelings as Evidence",
+      "subtitle": "Emotional Proof",
+      "tagline": "Treating emotional intensity as a form of credibility",
+      "description": "Using the strength or authenticity of one's emotional response as proof that one's claims are true. This conflates subjective emotional experience with objective evidence, suggesting that if someone feels strongly enough about something, that feeling itself validates their factual claims. It treats emotional displays—crying, visible distress, passionate conviction—as a kind of testimony that cannot be questioned without callousness.",
+      "example": "Christine Blasey Ford's emotional testimony treated as evidence in itself during the Kavanaugh hearings, separate from corroborating facts. Nancy Hopkins saying she 'couldn't breathe' and felt 'physically ill' at Larry Summers's comments, with her physical reaction treated as proof he was wrong. 'Her tears show she's telling the truth.' 'The raw emotion in his voice proves his sincerity.'",
+      "icon": "😢",
+      "source": "Epistemology",
+      "sourceUrl": "https://plato.stanford.edu"
+    },
+    {
+      "id": 35,
+      "slug": "covert-ostracism",
+      "title": "Covert Ostracism",
+      "subtitle": "Social Excommunication",
+      "tagline": "Refusing professional engagement based on political views",
+      "description": "Refusing to interact professionally with individuals based on their political views or associations, and extending that ostracism to anyone who maintains normal relations with them. Rather than engaging in open debate or confrontation, this involves quiet exclusion, refusing meetings, and pressuring others to join the boycott. It transforms political disagreement into social excommunication, making it impossible to maintain professional relationships across ideological lines.",
+      "example": "A New York Times journalist refusing to get coffee with Bari Weiss because of her political views. Colleagues being 'badgered' for being friendly with someone deemed problematic. Refusing to collaborate professionally with someone who holds controversial opinions. Pressuring others to cut ties with the ostracized person or face ostracism themselves.",
+      "icon": "🚷",
+      "source": "Social Psychology",
+      "sourceUrl": "https://en.wikipedia.org"
+    },
+    {
+      "id": 36,
+      "slug": "endless-apology-spiral",
+      "title": "Endless Apology Spiral",
+      "subtitle": "Never Enough Contrition",
+      "tagline": "No apology is ever sufficient",
+      "description": "A dynamic where no amount of clarification, apology, or contrition is ever accepted as adequate. Each apology or attempt at reconciliation is met with demands for more—more groveling, more self-flagellation, more concessions. The goal is not forgiveness or resolution but the maintenance of moral superiority and the extraction of endless penance. There is no clear path to redemption because redemption would end the power dynamic.",
+      "example": "Larry Summers making three increasingly insistent public apologies for his remarks on sex differences, none of which satisfied his critics. A celebrity apologizing for an offense, then being criticized for the apology not being sincere enough, then apologizing again, then being told the second apology proves they didn't mean the first. Each apology interpreted as further evidence of guilt.",
+      "icon": "🔁",
+      "source": "Social Dynamics",
+      "sourceUrl": "https://en.wikipedia.org"
+    },
+    {
+      "id": 37,
+      "slug": "instrumental-law",
+      "title": "Instrumental Law",
+      "subtitle": "Rules as Suggestions",
+      "tagline": "Legal procedures are optional when they conflict with empathy",
+      "description": "Treating legal rules, procedures, and formalities as optional or negotiable when they produce outcomes that conflict with sympathy for preferred groups. This views the law not as a neutral framework that must be followed even when it yields uncomfortable results, but as a tool to be bent, ignored, or reinterpreted to achieve desired outcomes. It celebrates breaking procedural rules when doing so serves 'justice' as subjectively understood, undermining the rule of law itself.",
+      "example": "Title IX tribunals removing due process protections like the right to confront accusers because the rules favored the accused over the accuser. Supreme Court justices 'ignoring formal time limits' celebrated as 'judicial girl power.' Judges bending rules for favored groups while enforcing them strictly on disfavored groups. Treating legal formalities as patriarchal relics that can be discarded.",
+      "icon": "⚖️",
+      "source": "Legal Philosophy",
+      "sourceUrl": "https://plato.stanford.edu"
     }
   ]
 }
