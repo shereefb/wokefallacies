@@ -443,6 +443,54 @@
       "icon": "⚖️",
       "source": "Legal Philosophy",
       "sourceUrl": "https://plato.stanford.edu"
+    },
+    {
+      "id": 38,
+      "slug": "cultural-ubiquity",
+      "title": "The Fallacy of Cultural Ubiquity",
+      "subtitle": "Culture Can't Explain Anything",
+      "tagline": "Denying that cultural differences affect outcomes",
+      "description": "The prohibition on cultural explanations must be counterintuitive to nearly everyone. The argument that people all over the world or in a given Western country who live differently, view the world differently, speak differently, approach life and work differently, experienced history differently, and think differently about gender and sex—that none of this boundless variation—has any bearing on why certain societies are richer and poorer or why certain subgroups are more or less successful in a given society. The argument is absurd on the face of it.",
+      "example": "Claiming that cultural differences in attitudes toward education, work ethic, family structure, or time orientation have zero impact on group outcomes. Insisting that all disparities must be explained by structural discrimination alone, while ignoring obvious cultural variations that exist between and within groups.",
+      "icon": "🌍",
+      "source": "New Discourses",
+      "sourceUrl": "https://newdiscourses.com/2020/11/four-fallacies-woke-prohibition-cultural-arguments/"
+    },
+    {
+      "id": 39,
+      "slug": "dominant-culture",
+      "title": "The Fallacy of the Dominant Culture",
+      "subtitle": "Culture Matters Only for Oppressors",
+      "tagline": "Culture explains dominant group behavior but nothing else",
+      "description": "Woke ideology treats all culture as irrelevant except that of the dominant culture. Structure cannot explain the behavior of the dominant class because the dominant class is at the top of the food chain. The only other explanation for how the dominant class behaves is culture. The woke do think it's perfectly legitimate and even imperative to criticize the culture of the oppressor. It's fine, for example, to talk about 'white fragility' or 'toxic masculinity'—the machismo culture of cis-men—or 'rape culture.' But how can culture not be a factor at all for marginalized groups but be the sole factor for dominant groups? Are they really saying when structure comes to play culture goes away?",
+      "example": "Attributing negative behaviors of white people or men to their culture ('toxic masculinity,' 'white fragility,' 'Karen behavior') while simultaneously insisting that cultural explanations for outcomes among marginalized groups are racist or sexist. Claiming culture shapes oppressor behavior but has zero influence on anyone else.",
+      "icon": "👑",
+      "source": "New Discourses",
+      "sourceUrl": "https://newdiscourses.com/2020/11/four-fallacies-woke-prohibition-cultural-arguments/"
+    },
+    {
+      "id": 40,
+      "slug": "selective-agency",
+      "title": "The Fallacy of Selective Agency",
+      "subtitle": "Oppressors Create Everything",
+      "tagline": "Structure controls victims but not their virtues",
+      "description": "If structure really is an all-encompassing force, shouldn't it also explain the vitality of the Black community? As Thomas Burgess wrote in Quillette, 'if whiteness is responsible for black vices, isn't it also responsible for black virtues? Wouldn't all culture be its creation, and not just the undesirable parts? This is the logical conclusion of this kind of thinking, and it is what happens when you cede omnipotence to the oppressor. When you create a puppet master, you create puppets missing some of the most basic attributes of being human.'",
+      "example": "Attributing all negative outcomes in minority communities to white supremacy and structural racism, while simultaneously celebrating the resilience, creativity, and achievements of those same communities as if they emerged independently of any structural forces. Claiming oppression determines everything negative but nothing positive.",
+      "icon": "🎭",
+      "source": "New Discourses",
+      "sourceUrl": "https://newdiscourses.com/2020/11/four-fallacies-woke-prohibition-cultural-arguments/"
+    },
+    {
+      "id": 41,
+      "slug": "differential-outcomes",
+      "title": "The Fallacy of Differential Outcomes",
+      "subtitle": "White Supremacy That Doesn't Favor Whites",
+      "tagline": "The system is rigged but many non-whites outperform whites",
+      "description": "If 'white supremacy' is truly the all-powerful force woke ideologues make it out to be, why do so many other ethnic populations substantially outperform whites? One would think that in a white supremacist society whites would be allotted such advantages as higher average incomes and higher levels of educational achievement than other groups. Many White Americans are, in fact, doing poorly. In addition, some African immigrant groups that came to the U.S. under disadvantageous conditions have on average done better than American blacks and segments of the Hispanic population. Wouldn't a white supremacist system subjugate African immigrants too?",
+      "example": "Asian Americans, Nigerian Americans, and Indian Americans significantly outperforming white Americans in income and educational achievement. If the system is designed to benefit whites above all others, how do we explain these groups' success? The existence of poor white communities and successful minority communities contradicts the claim of an all-determining white supremacist structure.",
+      "icon": "📈",
+      "source": "New Discourses",
+      "sourceUrl": "https://newdiscourses.com/2020/11/four-fallacies-woke-prohibition-cultural-arguments/"
     }
   ]
 }
